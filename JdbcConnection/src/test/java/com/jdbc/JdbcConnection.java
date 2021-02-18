@@ -29,7 +29,7 @@ public static void main(String[] args) throws ClassNotFoundException, SQLExcepti
 	resultset = stmt.executeQuery(sql);
 	
 	while(resultset.next()) {
-	System.out.println(resultset.getString(1)+" "+resultset.getString(2)+" "+resultset.getString(3)+" "+resultset.getString(4)+" "+resultset.getString(5)+" "+resultset.getString(6)+" "+resultset.getString(7));
+	System.out.println("datass "+resultset.getString(1)+" "+resultset.getString(2)+" "+resultset.getString(3)+" "+resultset.getString(4)+" "+resultset.getString(5)+" "+resultset.getString(6)+" "+resultset.getString(7));
 
 	
 	}
